@@ -35,3 +35,11 @@ variable "private_subnets_count" {
   type = number
 }
 
+variable "bastion_instance_type" {
+  
+}
+
+variable "public_key" {
+  type = string
+  default = ".pub"
+}
